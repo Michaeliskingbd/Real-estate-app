@@ -14,6 +14,7 @@ background: #f3f5f6;
 .option__section h1 {
     color: var(--color-variant);
     font-weight: 500;
+
 }
 
 .options {
@@ -67,37 +68,44 @@ background: #f3f5f6;
    
 }
 
-@media screen and (max-width:769px) {
+
+
+@media screen and (max-width:480px) {
     .options {
         grid-template-columns: 1fr;
         
     }
-    .options__content {
-        margin-left: 0;
-        margin-top: 1rem;
-       
+
+    .option__section h1 {
+        color: var(--color-variant);
+        font-weight: 500;
+        font-size: 1.4rem;
+    
     }
+ 
+    .options__content {
+    margin-left: 0;
+    margin-top: 1rem;
+    border: 1px dotted var(--color-variant);
+    padding: 2rem;
+    transition: transform 0.3s ease;
+    background: #fff;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.options__info {
+    gap: 1rem;
+}
+
+.options__info h3 {
+    font-weight: 300;
+    font-size: 1rem;
+  
+}
 
     .options__content:hover {
-        transform: scale(.9);
+        transform: scale(1.1);
     }
     
 }
 
-
-@media screen and (max-width:1024px) {
-    .options {
-        grid-template-columns: 1fr;
-        
-    }
-    .options__content {
-        margin-left: 0;
-        margin-top: 1rem;
-       
-    }
-
-    .options__content:hover {
-        transform: scale(.9);
-    }
-    
-}

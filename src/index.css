@@ -66,3 +66,33 @@ section {
     
 
 }
+
+
+
+@media screen and (max-width:480px) {
+    section {
+        width: var( --container-width-sm);}
+       
+     
+        .section__title {
+            width: 100%;
+        }
+        .section__title h2 {
+            font-size: 1.5rem;
+            font-weight: 500;
+            
+        }
+        .section__title h3 {
+            font-size: .8rem;
+     
+            
+        }
+        
+        .section__title h3 {
+            margin-bottom: 2rem;
+        }
+        
+       
+    
+
+}

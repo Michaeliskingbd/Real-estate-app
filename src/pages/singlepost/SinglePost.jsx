@@ -35,7 +35,7 @@ const SinglePost = () => {
           {
             breakpoint: 480,
             settings: {
-              slidesToShow: 4,
+              slidesToShow: 5,
               slidesToScroll: 1,
               arrows: false,
             },
@@ -57,9 +57,9 @@ const SinglePost = () => {
         
               <div className='more__image'>
                 <div className='more__images'>
-                  
-                </div>
                 <img src={items} alt='sp'/>
+                </div>
+              
               </div>
             )
 
@@ -115,9 +115,9 @@ const SinglePost = () => {
                  
                 <article className='comment__content'>
                 <img src={image} alt='pic'/>
-                <div className='options__info'>
+                <div className='comment__info'>
                 <h2>Hlistng user</h2>
-                <h3>I work around here and would like to own a house here one day ..very beautiful environment</h3>
+                <h3>I work around here and would like to own a house here one day</h3>
 
                      
                 </div>
@@ -126,18 +126,7 @@ const SinglePost = () => {
 
             <article className='comment__content'>
                 <img src={image} alt='pic'/>
-                <div className='options__info'>
-                <h2>Hlistng user</h2>
-                <h3>It's a very beautiful house with lot of stores around, very safe and conducive</h3>
-
-                     
-                </div>
-                
-            </article>
-
-            <article className='comment__content'>
-                <img src={image} alt='pic'/>
-                <div className='options__info'>
+                <div className='comment__info'>
                 <h2>Hlistng user</h2>
                 <h3>It's a very beautiful house with lot of stores around, very safe and conducive</h3>
 
@@ -148,7 +137,18 @@ const SinglePost = () => {
 
             <article className='comment__content'>
                 <img src={image} alt='pic'/>
-                <div className='options__info'>
+                <div className='comment__info'>
+                <h2>Hlistng user</h2>
+                <h3>It's a very beautiful house with lot of stores around, very safe and conducive</h3>
+
+                     
+                </div>
+                
+            </article>
+
+            <article className='comment__content'>
+                <img src={image} alt='pic'/>
+                <div className='comment__info'>
                 <h2>Hlistng user</h2>
                 <h3>It's a very beautiful house with lot of stores around, very safe and conducive</h3>
 

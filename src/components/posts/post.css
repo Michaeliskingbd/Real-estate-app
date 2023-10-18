@@ -56,5 +56,42 @@ button.slick-arrow.slick-prev::before {
     }
 }
 
+@media screen and (max-width:480px) {
+    .house__content {
+        width: 200px;
+        margin: auto;
+    }
+   
+    section {
+        width: var(--conatainer-wdth-sm);
+       
+    }
+
+    .house__info {
+        display: flex;
+        flex-direction: column;
+        gap: .4rem;
+        font-size: .8rem;
+        text-align: center;
+        padding: 1rem;
+   
+    }
+    
+    .price {
+        font-weight: 600;
+        font-size: 1.2rem;
+    }
+    .name {
+        text-transform: uppercase;
+        font-size: .6rem;
+    }
+    .date {
+        font-style: italic;
+        font-size: 0.7rem;
+    }
+}
+
+
+
   
 

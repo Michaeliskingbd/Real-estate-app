@@ -18,9 +18,12 @@ h6 {
    .about__section span {
     text-align: justify;
    }
+
    .about__section {
     width: 90%;
     margin: auto;
     margin-top: 3rem;
+    text-align: justify;
    }
+   
 }

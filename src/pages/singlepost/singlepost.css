@@ -83,6 +83,7 @@
 }
 .sp__bnb div {
     display: flex;
+    align-items: center;
     gap: 10rem;
 }
 .bnb__num {
@@ -130,8 +131,24 @@
     
 }
 
+.comment__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 1rem;
+    gap: 1.5rem;
+}
 
-@media screen and (max-width:769px) {
+.comment__info h3 {
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+
+@media screen and (max-width:480px) {
 
     .singlepost__container {
         
@@ -141,10 +158,21 @@
         padding: .5rem;
     
     }
+   
+    
+    .more__image {
+        height: 5rem;
+    
+    }
+    .sp__pricing {
+        font-weight: 500;
+        font-size: 2rem;
+        
+    }
 
     .comments {
         display: grid;
-        grid-template-columns: 1fr 1fr ;
+        grid-template-columns: 1fr;
        
     }
 
@@ -168,32 +196,71 @@
         background: #fff;
         border-top-left-radius: 1rem;
         border-top-right-radius: 1rem;
+        font-size: .9rem;
+        text-align: center;
         
+    }
+
+    .sp__desc {
+        text-align: justify;
+        font-size: .9rem;
+       
     }
 
     .box {
         padding: .5rem;
     }
-    .more__image {
-        width: 6rem;
-    } 
 
-    .more__image img {
-      width: 100%;
+    .sp__bnb div span {
+        font-size: .7rem;
+        font-weight: 300;
     }
-
+    .sp__bnb div {
+        display: flex;
+        align-items: center;
+    }
+    .bnb__num {
+        padding: .1rem .8rem;
+        border: 1px solid var(--color-primary);
+    }
+    .bnb__num p {
+        margin: 0;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+   
+  
     .comment__box {
         margin-top: 1rem;
     }
 
     .comment__content {
        margin: 0;
+       padding: .7rem;
+       height: 13rem;
+    
+       
+
     }
 
     .comment__box h1 {
         margin: 1.5rem;
-        font-size: 1.4rem;
-    }   
+        font-size: .7rem;
+    }  
+    
+    .comment__info {
+    
+        text-align: center;
+        margin-top: 1rem;
+        gap: 1rem;
+        font-size: .8rem;
+    }
+    
+    .comment__info h3 {
+        font-weight: 300;
+        font-size: .7rem;
+    
+    }
     
 }
 

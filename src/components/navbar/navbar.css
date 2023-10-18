@@ -22,6 +22,8 @@ nav h1 a {
     list-style: none;
     padding: 0 15px;
     position: relative;
+
+
 }
 
 
@@ -58,6 +60,8 @@ nav h1 a {
     align-items: center;
     
 }
+
+
 
 /*.account {
     color: #fff;
@@ -160,6 +164,14 @@ nav h1 a {
 
 
 @media screen and (max-width:1024px) {
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2rem 2rem;
+   
+    }
+    
     #navbar {
         display: flex;
         flex-direction: column;
@@ -169,7 +181,7 @@ nav h1 a {
         top: 90px;
         right: -300px;
         width: 300px;
-        height: 100vh;
+        height: 60vh;
         background: var(--color-primary);
         box-shadow: 0 40px 60px rgba(0 , 0 , 0, 0.1);
         padding: 40px 0 0 10px;
@@ -208,6 +220,13 @@ nav h1 a {
         font-size: 24px;
         cursor: pointer;
     }
+
+    #navbar li {
+       color: #fff;
+    
+    
+    }
+    
 }
 
 
@@ -217,6 +236,7 @@ nav h1 a {
     border: 1px solid var(--color-secondary);
     border-radius: .2rem;
     padding: .5rem 1rem;
+
 
     
 }
