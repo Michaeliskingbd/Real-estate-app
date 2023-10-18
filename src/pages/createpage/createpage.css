@@ -154,6 +154,101 @@ textarea {
 
     .details , .create__location, .create__pricing{
         width: 90%;
+        margin-top: 2rem;
+        
+    }
+  
+    .secondary__container {
+        background: #f3f5f6;
+        padding: 1rem 0;
+      
+        
+        
+       
+    }
+    .secondary__container h2 {
+        font-size: 1rem;
+    }
+    .secondary__container label, p  {
+        font-size: .8rem;
+    }
+    .details, .create__location, .create__pricing {
+        padding: 1.5rem;
+        
+    }
+
+    .create__input {
+        padding: .5rem;
+        font-size: .6rem;
+    }
+
+    select {
+        padding: .5rem;
+        text-indent: .7rem;
+        font-size: .6rem;
+    
+        border-radius: .5rem;
+       
+    }
+    .bnb {
+        display: flex;
+        flex-direction: column;
+    }
+    .bnb label {
+        font-size: .8rem;
+        color: rgb(0, 0, 0);
+        margin-bottom: 1rem;
+        font-weight: 300;
+    }
+    
+    .bnb div span {
+        font-size: .7rem;
+        font-weight: 300;
+    }
+    .bnb div {
+        display: flex;
+        justify-content: space-between;
+    }
+    .count__box{
+        display: flex;
+        width: 25%;
+        align-items: center;
+        font-size: .6rem;
+    }
+    .count__box p {
+        font-size: inherit
+    }
+    
+    .create__pricing select {
+        width: fit-content;
+        font-size: .6rem;
+        padding: .3rem;
+        height: 2rem;
+        border-radius: .4rem;
+        
+    }
+    
+    .create__pricing input {
+        width: 100%;
+        border-radius: .4rem;
+    }
+    .create__pricing div {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        
+    }
+
+    textarea {
+        width: 100%;
+        height: 6rem;
+        font-family: poppins;
+        resize: none;
+        padding: 15px 5px;
+        font-size: .6rem;
+        background-color: #f3f5f6;
+        border: 1px solid #cecfd1;
+        border-radius: .7rem;
     }
 
     

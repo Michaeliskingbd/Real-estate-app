@@ -91,16 +91,17 @@ label {
 }
 
 .register p {
-    font-size: .7rem;
+    font-size: .5rem;
+    
    color: var(--color-variant);
 }
 
 .ahc {
-    font-size: .8rem;
+    font-size: .7rem;
 }
 
 .error {
-    margin-left: 1rem;  
+    margin-left: 1.5rem;  
 }
 
 .eye {
@@ -118,6 +119,40 @@ label {
     .register {
         width: 90%;
     }
+
+    .register input {
+        margin-bottom: .8rem;
+        height: 2.3rem;
+        font-size: .7rem;
+        color: gray;
+      
+    }
+    .register label {
+        font-size: .7rem;
+    }
+
+    .agent__box span {
+        font-size: .7rem;
+    }
+
+    .other__connect a {
+        padding: .8rem;
+        color: inherit;
+        text-align: center;
+        font-size: .7rem;
+    }
+
+    .eye {
+    
+        top: 10.8rem;
+        right: 2rem;
+
+    }
+
+    .reg__sec h2 {
+      font-size: 1rem;margin-left: 1rem;
+    }
+       
 }
 
 @media screen and (max-width:1024px) {

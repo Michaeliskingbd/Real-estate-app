@@ -102,7 +102,7 @@ const SinglePost = () => {
                 </div>
                 </div>
 
-                <div className='create__location'>
+                <div className='com create__location'>
                     <h2>Add comment...</h2>
                     <p>*Michael King</p>
                     <textarea type='text' placeholder='What do you think?'/>

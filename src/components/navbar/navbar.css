@@ -181,7 +181,7 @@ nav h1 a {
         top: 90px;
         right: -300px;
         width: 300px;
-        height: 60vh;
+        height: 100vh;
         background: var(--color-primary);
         box-shadow: 0 40px 60px rgba(0 , 0 , 0, 0.1);
         padding: 40px 0 0 10px;

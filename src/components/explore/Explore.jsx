@@ -26,6 +26,7 @@ const Explore = ({posts}) => {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
+          arrows: false,
         },
       },
       {
@@ -40,6 +41,7 @@ const Explore = ({posts}) => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          arrows: false,
         },
       },
     ],

@@ -28,6 +28,7 @@ const LoginPage = () => {
         type={showPassword ? 'text' : 'password'}
         value={password}
         onChange={handlePasswordChange}
+        placeholder='Password'
         
        
       />

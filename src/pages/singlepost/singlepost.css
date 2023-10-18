@@ -161,7 +161,8 @@
    
     
     .more__image {
-        height: 5rem;
+    
+        
     
     }
     .sp__pricing {
@@ -260,6 +261,10 @@
         font-weight: 300;
         font-size: .7rem;
     
+    }
+
+    .com h2 {
+        font-size: .8rem;
     }
     
 }

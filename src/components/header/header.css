@@ -106,7 +106,7 @@
     }
   .header__content h2 {
       font-size: 1rem;
-      font-weight: 200;
+      font-weight: 300;
       margin-top: 0.3rem;
     }
 
@@ -117,7 +117,8 @@
   }
 
   input {
-    padding-right: 50px;
+    padding-right: 45px;
+    font-size: .9rem;
  
   }
 }
