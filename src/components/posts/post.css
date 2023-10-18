@@ -1,0 +1,60 @@
+.house__content {
+    width: 300px;
+    display: grid;
+    border: 1px solid rgb(218, 215, 215);
+    border-radius: .3rem;
+
+}
+.house__image {
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.my__link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.house__info {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 1.4rem;
+}
+
+.price {
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+.name {
+    text-transform: uppercase;
+    font-size: .7rem;
+}
+.date {
+    font-style: italic;
+    font-size: 0.8rem;
+}
+
+button.slick-arrow.slick-next::before {
+    color: var(--color-variant);
+}
+button.slick-arrow.slick-prev::before {
+    color: var(--color-variant);
+}
+
+@media screen and (max-width:769px) {
+    .house__content {
+        width: 250px;
+    }
+   
+    section {
+        width: var(--conatainer-wdth-sm);
+       
+    }
+}
+
+  
+
