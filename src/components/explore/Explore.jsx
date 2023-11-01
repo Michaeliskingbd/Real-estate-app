@@ -39,7 +39,16 @@ const Explore = ({posts}) => {
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          arrows: false,
+        },
+      },
+
+      {
+        breakpoint: 360,
+        settings: {
+          slidesToShow: 1.8,
           slidesToScroll: 1,
           arrows: false,
         },
@@ -54,10 +63,8 @@ const Explore = ({posts}) => {
       
 
       <div className='section__title'>
-        <h2>Explore Houses on Hlisting</h2>
-        <h3>Take a deep dive and browse homes for sale, 
-            original neighborhood photos, resident reviews
-             and local insights to find what is right for you.
+        <h1>Explore Houses on Citylights</h1>
+        <h3 className='subheading'>Take a deep dive and browse homes for sale
         </h3>
         </div>
         

@@ -8,7 +8,8 @@ import { Link } from 'react-router-dom';
 const Option = () => {
   return (
     <div className='option__section'>
-        <h1>See how Hlistng can help</h1>
+        <h1>We provide you with all the essentials for your home search</h1>
+        <h3 className='subheading'>See how Citylights homes can help</h3>
         <div className='options'>
             <article className='options__content'>
                 <img src={image} alt='pic'/>
@@ -16,6 +17,7 @@ const Option = () => {
                 <h2>Buy a home</h2>
                 <h3>Lorem ipsum doporro et
                       error fugiat odit cupiditate quaerat tempora.</h3>
+                     
 
                       <Link to="/" className='explore__btn'>Find a home</Link>
                 </div>
@@ -43,7 +45,11 @@ const Option = () => {
                 </div>
                 
             </article>
+
+
         </div>
+
+       
     </div>
   )
 }

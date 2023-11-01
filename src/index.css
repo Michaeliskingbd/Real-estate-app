@@ -1,7 +1,7 @@
 :root {
     --color-primary:  rgb(0, 120, 130);
     --color-secondary: rgb(217, 60, 35);
-    --color-variant: gray;
+    --color-variant: rgb(0, 0, 0);
 
     --container-width-lg: 75%;
     --container-width-md: 80%;
@@ -21,32 +21,34 @@ section {
 }
 
 .section__title {
-    width: 60%;
-    color: rgb(59, 65, 68);
-    margin: 0 auto;
-    text-align: center;
+    text-align: left;
+    width: 50%;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+  
 }
-.section__title h2 {
+.section__title h1 {
     font-size: 2rem;
-    font-weight: 500;
-    margin: auto;
+    font-weight: 600;
+
     
 }
 
 
 
 .section__title h3 {
-    font-size: 1rem;
-    font-weight: 200;
-    margin-top: .5rem;
-    line-height: 1.3rem;
-    margin-bottom: 3rem;
-    color: var(--color-variant);
+    color: gray;
+    font-weight: 400;
+    text-align: left;
+    width: 100%;
+    line-height: 2rem;
+    
 }
 
 @media screen and (max-width:769px) {
     section {
-        width: var( --container-width-sm);}
+        width: var( --container-width-sm);
+    }
        
      
         .section__title {
@@ -80,10 +82,12 @@ section {
         .section__title h2 {
             font-size: 1.5rem;
             font-weight: 500;
+         
             
         }
         .section__title h3 {
             font-size: .8rem;
+           
      
             
         }

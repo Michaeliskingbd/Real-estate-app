@@ -29,7 +29,7 @@ const CreatePage = () => {
 
     const Decreasetwo = () => {
         if (
-            count > 0 
+            counttwo > 0 
         ) {
             setCounttwo(counttwo -1)
         }

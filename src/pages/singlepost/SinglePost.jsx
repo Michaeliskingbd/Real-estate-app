@@ -105,7 +105,8 @@ const SinglePost = () => {
                 <div className='com create__location'>
                     <h2>Add comment...</h2>
                     <p>*Michael King</p>
-                    <textarea type='text' placeholder='What do you think?'/>
+                    <textarea className='comment__area' type='text' placeholder='What do you think?'/>
+                    <div className='comm btn'>Post</div>
                 </div>
 
                 <div className='comment__box'>
@@ -114,9 +115,9 @@ const SinglePost = () => {
                 <div className='comments'>
                  
                 <article className='comment__content'>
-                <img src={image} alt='pic'/>
+                
                 <div className='comment__info'>
-                <h2>Hlistng user</h2>
+                <h2>User</h2>
                 <h3>I work around here and would like to own a house here one day</h3>
 
                      
@@ -125,9 +126,9 @@ const SinglePost = () => {
             </article>
 
             <article className='comment__content'>
-                <img src={image} alt='pic'/>
+                
                 <div className='comment__info'>
-                <h2>Hlistng user</h2>
+                <h2>User</h2>
                 <h3>It's a very beautiful house with lot of stores around, very safe and conducive</h3>
 
                      
@@ -136,9 +137,9 @@ const SinglePost = () => {
             </article>
 
             <article className='comment__content'>
-                <img src={image} alt='pic'/>
+                
                 <div className='comment__info'>
-                <h2>Hlistng user</h2>
+                <h2>User</h2>
                 <h3>It's a very beautiful house with lot of stores around, very safe and conducive</h3>
 
                      
@@ -147,9 +148,9 @@ const SinglePost = () => {
             </article>
 
             <article className='comment__content'>
-                <img src={image} alt='pic'/>
+                
                 <div className='comment__info'>
-                <h2>Hlistng user</h2>
+                <h2>User</h2>
                 <h3>It's a very beautiful house with lot of stores around, very safe and conducive</h3>
 
                      

@@ -39,8 +39,8 @@
     font-weight: 500;
     align-items: center;
     background: #fff;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
+    border-top-left-radius: .3rem;
+    border-top-right-radius: .3rem;
     
 }
 
@@ -67,8 +67,8 @@
      padding: 2rem;
     border: 1px solid var(--color-primary);
     background: #fff;
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: .3rem;
+    border-bottom-right-radius: .3rem;
 }
 .sp__bnb label {
     font-size: 1.3rem;
@@ -147,23 +147,43 @@
     line-height: 1.5rem;
 }
 
+.com {
+    padding: 2rem;
+    border-radius: .5rem;
+    width: 90%;
+    margin-bottom: 2rem;
+}
+.com textarea {
+    border-radius: .3rem;
+    height: 4rem;
+}
+.comm {
+    width: fit-content;
+    padding: .5rem 2rem;
+}
+
+
 
 @media screen and (max-width:480px) {
 
     .singlepost__container {
-        
         display: flex;
         flex-direction: column;
-        background: #f3f5f6;
-        padding: .5rem;
+        padding: .6rem;
+   
     
     }
    
-    
-    .more__image {
-    
-        
-    
+    .more__image img {
+        width: 12rem;
+    }
+
+    .sp__image {
+        width: 30rem;
+        margin: auto;
+        margin-bottom: 2rem;
+        margin-top: 2rem
+
     }
     .sp__pricing {
         font-weight: 500;
@@ -173,14 +193,16 @@
 
     .comments {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
+        gap: .5rem;
        
     }
 
     .sp__image {
         width: 20rem;
         margin: auto;
-        margin-bottom: 1rem; 
+        margin-bottom: 1rem;
+        margin-top: 4rem;  
     }
 
     .sp__details {
@@ -195,8 +217,8 @@
         font-weight: 500;
         align-items: center;
         background: #fff;
-        border-top-left-radius: 1rem;
-        border-top-right-radius: 1rem;
+        border-top-left-radius: .5rem;
+        border-top-right-radius: .5rem;
         font-size: .9rem;
         text-align: center;
         
@@ -233,12 +255,14 @@
   
     .comment__box {
         margin-top: 1rem;
+        padding: 0rem .5rem;
+        margin-bottom: 6rem;
     }
 
     .comment__content {
        margin: 0;
        padding: .7rem;
-       height: 13rem;
+    
     
        
 
@@ -246,7 +270,7 @@
 
     .comment__box h1 {
         margin: 1.5rem;
-        font-size: .7rem;
+        font-size: .9rem;
     }  
     
     .comment__info {
@@ -266,70 +290,17 @@
     .com h2 {
         font-size: .8rem;
     }
+  
+
+    .com {
+        padding: 2rem 1rem;
+        border-radius: .3rem;
+        width: 96%;
+     
+    }
+
+
     
 }
 
-@media screen and (max-width:1024px) {
 
-    .singlepost__container {
-        
-        display: flex;
-        flex-direction: column;
-        background: #f3f5f6;
-        padding: .5rem;
-    
-    }
-
-    .comments {
-        display: grid;
-        grid-template-columns: 1fr 1fr ;
-       
-    }
-
-    .sp__image {
-        width: 20rem;
-        margin: auto;
-        margin-bottom: 1rem; 
-    }
-
-    .sp__details {
-        display: flex;
-        gap: 1rem;
-        justify-content: space-between;
-        padding: 3rem;
-        border: 1px solid var(--color-primary);
-        border-bottom: none;
-        margin-top: 4rem;
-        font-weight: 500;
-        align-items: center;
-        background: #fff;
-        border-top-left-radius: 1rem;
-        border-top-right-radius: 1rem;
-        
-    }
-
-    .box {
-        padding: .5rem;
-    }
-
-    .more__image img {
-        width: 12rem;
-    }
-
-    .comment__box {
-        margin-top: 1rem;
-    }
-
-    .comment__content {
-       margin: 0;
-    }
-
-    .comment__box h1 {
-        margin: 1.5rem;
-        font-size: 1.4rem;
-    }
-    
-    
-    
-    
-}

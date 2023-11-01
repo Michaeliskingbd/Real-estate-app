@@ -1,6 +1,7 @@
 .reg__sec {
     width: 75%;
     margin: auto;
+    margin-top: 10rem;
 }
 .register {
     display: flex;
@@ -150,18 +151,30 @@ label {
     }
 
     .reg__sec h2 {
-      font-size: 1rem;margin-left: 1rem;
+      font-size: 1rem;
+      margin-left: 1rem;
     }
        
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:480px) {
 
     .reg__sec {
         width: 95%;
+      
     }
     .register {
         width: 90%;
+        padding: 2rem 1.2rem;
     }
+
+    .reg__sec {
+        margin-top: 6rem;
+        margin-bottom: 6rem;
+    }
+
+   
+
+  
 }
 
