@@ -1,24 +1,28 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./explore.css"
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import image from'../../assets/john-fornander-tVzyDSV84w8-unsplash.jpg';
 import { Link } from 'react-router-dom';
 import data from "../../Data"
 import "../posts/post.css"
-
-
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Explore = ({posts}) => {
+
+  useEffect(()=> {
+    AOS.init();
+  }, [])
+
   const settings = {
     dots: true,
-    infinite: false,
-    speed: 500,
+    speed: 1000,
+    autoplay: true,
+    infinite: true,
     slidesToShow: 3, // Number of slides to show at once
     slidesToScroll: 1, // Number of slides to scroll
-    autoplaySpeed: 2000, // Autoplay speed in milliseconds
+    autoplaySpeed: 6000, // Autoplay speed in milliseconds
     arrows: true, // Show navigation arrows
     responsive: [
       {
@@ -59,7 +63,7 @@ const Explore = ({posts}) => {
   
 
   return (
-    <section>
+    <section  data-aos="fade-up"   data-aos-duration="1000" data-aos-once="false">
       
 
       <div className='section__title'>
@@ -69,18 +73,18 @@ const Explore = ({posts}) => {
         </div>
         
         <Slider {...settings}>
-        {data.map(({img, location1, location2, price,createdAt, name}) => {
+        {data.map(({img, location1, price,createdAt, name, bedroom, bathroom}) => {
           return(
-            <Link className='my__link' to="/post:id/">
+            <Link className='my__link' to="/post/:id">
             <div className='house__content' >
             <img className='house__image' src={img} alt='house'/>
       
             <div className='house__info'>
             <p className='price'>{price}</p>
+            <p>{bedroom} bed | {bathroom} bath | For sale</p>
             <p className='location'>{location1}</p>
-            <p className='location'>{location2}</p>
-            <p className='name'>{name}</p>
-            <p className='date'>{createdAt}</p>
+            <p className='name'>{name} | {createdAt} </p>
+          
             </div>
       
             </div>

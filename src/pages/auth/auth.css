@@ -1,28 +1,30 @@
 .reg__sec {
-    width: 75%;
+    background-color: #f3f5f6;
     margin: auto;
-    margin-top: 10rem;
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+
+
 }
 .register {
     display: flex;
     flex-direction: column;
-    width: 40%;
-    gap: .4rem;
+    width: 35%;
     border: 1px solid var(--color-primary);
     border-radius: .4rem;
     padding: 2rem;
     margin: auto;
     position: relative;
-    margin-bottom: 3rem;
+    background: #fff;
 }
 
 .register input {
     margin-bottom: 1rem;
     height: 2.5rem;
-    font-size: 1rem;
+    font-size: .8rem;
     color: gray;
     text-indent: .7rem;
-    background-color: rgb(248, 248, 248);
+    background-color: #f3f5f6;
     border: 1px solid rgb(223, 220, 220);
 }
 
@@ -44,15 +46,17 @@
 
 label {
     font-weight: 200;
-    color: gray;
+    color: rgb(0, 0, 0);
+    font-size: .8rem;
 }
 
 .reg__sec h2 {
     margin-bottom: .7rem;
     color: var(--color-variant);
-    margin-left: 30%;
-    font-weight: 400;
+    margin-left: 33%;
+    font-weight: 600;
     margin-top: 3rem;
+    font-size: 1.3em;
 
 }
 
@@ -102,14 +106,33 @@ label {
 }
 
 .error {
-    margin-left: 1.5rem;  
+  color: rgb(223, 21, 21);
 }
 
 .eye {
     position: absolute;
-    top: 12.3rem;
+    top: 10.3rem;
     right: 2rem;
     color: gray;
+}
+
+.popup {
+    background-color: #ffff00;
+    border: 1px solid #cccccc; 
+    padding: 1rem 2rem;
+    width: fit-content;
+    position: absolute;
+    top: -1rem;
+    right: 40%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    color: #333333; /* Text color for better contrast */
+    font-size: .8em;
+    display: flex;
+    align-items: center;
+    gap: .3em;
+    transition: all, ease-in-out,2s;
+
 }
 
 @media screen and (max-width:769px) {
@@ -145,7 +168,7 @@ label {
 
     .eye {
     
-        top: 10.8rem;
+        top: 9.6rem;
         right: 2rem;
 
     }
@@ -165,12 +188,21 @@ label {
     }
     .register {
         width: 90%;
-        padding: 2rem 1.2rem;
+        padding: 2rem 1.5rem;
     }
 
     .reg__sec {
-        margin-top: 6rem;
-        margin-bottom: 6rem;
+        padding-top: 6rem;
+        margin-bottom: 1rem;
+    }
+
+    .reg__sec h2 {
+        margin-left: 7%;
+    }
+
+    .popup {
+        top: -5rem;
+        right: 25%;
     }
 
    

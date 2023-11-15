@@ -2,7 +2,6 @@ import React from 'react'
 import "./singlepost.css"
 import image3 from "../../assets/john-fornander-tVzyDSV84w8-unsplash.jpg"
 import Slider from 'react-slick';
-import image from "../../assets/005-user.png"
 import data from "../../int"
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -42,10 +41,18 @@ const SinglePost = () => {
           },
         ],
       }
+
+
+    
+
+     
+    
+ 
+
   return (
     <div className='singlepost__container'>
         <div className='sp__image'>
-          <img src={image3} alt='sp'/>
+          <img src={image3}alt='sp'/>
         </div>
 
 
@@ -72,23 +79,14 @@ const SinglePost = () => {
         <div className='box'>
 
         <div className='sp__details'>
-            <div>3235 Emmons Avenue Building <p>Lekki Phase II, Lagos State</p></div>
-            <div  className='sp__pricing'>$299,234</div>
+            <div>Emmet Johnson Property & sons <p>Lekki Phase II, Lagos State</p></div>
+            <div  className='sp__pricing'>$299,999</div>
             <a href='index.html' className='btn'>Make Enquiry</a>
         </div>
 
         <div className='sp__desc'>
             <h3>Description</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-                omnis hic a non eaque error rem aperiam natus et voluptates.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-                omnis hic a non eaque error rem aperiam natus et voluptates.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-                omnis hic a non eaque error rem aperiam natus et voluptates.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-                omnis hic a non eaque error rem aperiam natus et voluptates.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-                omnis hic a non eaque error rem aperiam natus et voluptates.
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa ratione mollitia culpa, facere repellat vel error quam optio, fugit voluptate, aliquam animi asperiores reprehenderit doloremque facilis officia magni distinctio? Optio impedit repellat ducimus reprehenderit unde ut ab eaque! Fugiat magni blanditiis non sapiente. Voluptates pariatur accusantium, esse sit fuga repellat?
             </p>
         </div>
 
@@ -97,8 +95,8 @@ const SinglePost = () => {
             <div className='sp__bnb'>
             <h3>Interior description</h3>
                 <label>Beds and Bathrooms</label>
-                <div><span>Number of bedrooms</span> <div className='bnb__num'><p> 6</p></div>   </div>
-                <div><span>Number of bathrooms</span>  <div className='bnb__num'><p> 2</p></div>  </div>
+                <div><span>Number of bedrooms</span> <div className='bnb__num'><p>5</p></div>   </div>
+                <div><span>Number of bathrooms</span>  <div className='bnb__num'><p>2</p></div>  </div>
                 </div>
                 </div>
 

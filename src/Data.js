@@ -11,6 +11,8 @@ import img6 from "../src/assets/john-fornander-tVzyDSV84w8-unsplash.jpg"
         price : "$299,999",
         location1 : "Lekki Phase II, Lagos State,",
         location2 : "P.O Box 5330",
+        bedroom: "4",
+        bathroom: "2",
         name : "St Johnson Real Estate",
         createdAt : " 9 days ago"
 
@@ -21,6 +23,8 @@ import img6 from "../src/assets/john-fornander-tVzyDSV84w8-unsplash.jpg"
         price : "$400,000",
         location1 : "Bodija Estate, Oyo State,",
         location2 : "P.O Box 3245",
+        bedroom: "8",
+        bathroom: "3",
         name : "Kolawole Family house",
         createdAt : " 1 month ago"
 
@@ -32,6 +36,8 @@ import img6 from "../src/assets/john-fornander-tVzyDSV84w8-unsplash.jpg"
         price : "$700,999",
         location1 : "Victoria Island, Lagos State,",
         location2 : "P.O Box 4590",
+        bedroom: "3",
+        bathroom: "1",
         name : "Michael king & sons ",
         createdAt : " 2 weeks ago"
 
@@ -42,6 +48,8 @@ import img6 from "../src/assets/john-fornander-tVzyDSV84w8-unsplash.jpg"
         price : "$999,999",
         location1 : "Maitama close, Abuja State,",
         location2 : "P.O Box 7485",
+        bedroom: "4",
+        bathroom: "2",
         name : "St Mchael's Real Estate",
         createdAt : " 12 days ago"
 
@@ -52,6 +60,8 @@ import img6 from "../src/assets/john-fornander-tVzyDSV84w8-unsplash.jpg"
         price : "$500,000",
         location1 : "Lekki Phase II, Lagos State,",
         location2 : "P.O Box 5330",
+        bedroom: "4",
+        bathroom: "2",
         name : "St Johnson Real Estate",
         createdAt : " 9 days ago"
 
@@ -62,6 +72,8 @@ import img6 from "../src/assets/john-fornander-tVzyDSV84w8-unsplash.jpg"
         price : "$799,999",
         location1 : "Lekki Phase II, Lagos State,",
         location2 : "P.O Box 5330",
+        bedroom: "4",
+        bathroom: "2",
         name : "St Johnson Real Estate",
         createdAt : " 15 days ago"
 
@@ -72,6 +84,8 @@ import img6 from "../src/assets/john-fornander-tVzyDSV84w8-unsplash.jpg"
         price : "$199,000",
         location1 : "Ikorodu, Lagos State,",
         location2 : "P.O Box 5756",
+        bedroom: "4",
+        bathroom: "2",
         name : "St Johnson Real Estate",
         createdAt : " 1 month ago"
 

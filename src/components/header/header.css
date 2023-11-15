@@ -5,6 +5,7 @@
     background-repeat: no-repeat;
     position: relative;
     height: 65vh;
+    margin-top: 5rem;
 }
  
 .overlay {
@@ -106,18 +107,19 @@
   .header__content {
     text-align: left;
     display: block;
-    top: 30%;
+    top: 10%;
 
   }
 
   .header__content h1 {
     
-      font-size: 2rem;
-      width: 85%;
+      font-size: 3rem;
+      width: 75%;
       margin-left: 0;
+      line-height: 1.2em;
     }
   .header__content h2 {
-      font-size: 1rem;
+      font-size: 1.5rem;
       font-weight: 300;
       width: 60%;
       

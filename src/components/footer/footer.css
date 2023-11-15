@@ -1,7 +1,7 @@
 .footer__section {
     margin-top: 3rem;
     text-align: center;
-    color: rgb(66, 64, 64);
+    color: rgb(0, 0, 0);
     margin-bottom: 4rem;
 
 
@@ -36,6 +36,7 @@ hr {
     display: flex;
     flex: 2;
     gap: 1rem;
+    font-size: .8rem;
 }
 .fsocials {
     display: flex;

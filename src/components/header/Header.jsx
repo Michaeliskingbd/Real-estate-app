@@ -1,14 +1,20 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./header.css"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Header = () => {
+
+useEffect(()=> {
+  AOS.init();
+}, [])
   return (
     
     <div className='header'>
 
       <div className='overlay'></div>
 
-      <div className='header__content'>
+      <div className='header__content' data-aos="fade-in"   data-aos-duration="2000">
         <h1>Discover Your New Home</h1>
         <h2>Helping Nigerians to find their perfect fit.</h2>
 

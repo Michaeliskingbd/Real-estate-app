@@ -1,70 +1,73 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import "./auth.css"
-import { Link } from 'react-router-dom';
+import { Link} from 'react-router-dom';
+import {FcGoogle} from "react-icons/fc"
+import {SiFacebook} from "react-icons/si"
+import {BsApple} from "react-icons/bs"
+import { IoMdAlert } from "react-icons/io";
+import { MdOutlineCancel } from "react-icons/md";
 
-const RegisterPage = () => {
-  const [password, setPassword] = useState('');
+ const RegisterPage = () => {
 
+
+  const [showPopup, setShowPopup] = useState(true);
+
+  useEffect(() => {
+    const timeoutId = setTimeout(() => {
+      setShowPopup(false);
+    }, 7000);
+
+     //Clear the timeout if the component unmounts or if the pop-up is closed manually
+    return () => clearTimeout(timeoutId);
+  }, []);
+
+  const closePopup = () => {
+    setShowPopup(!showPopup)
+  }
+
+ const handleSubmit = async (event) => {
+  event.preventDefault();
+  window.location.replace("/")
+ }
   
-  const isPasswordValid = (password) => {
-    // Minimum length of 8 characters
-    const lengthCheck = password.length >= 8;
-
-    // mix of letters and numbers
-    const alphanumericCheck = /^(?=.*[0-9])(?=.*[a-zA-Z])/.test(password);
-
-    // At least 1 special character
-    const specialCharCheck = /[!@#$%^&*]/.test(password);
-
-    // At least 1 lowercase and 1 uppercase letter
-    const caseCheck = /^(?=.*[a-z])(?=.*[A-Z])/.test(password);
-
-    return lengthCheck && alphanumericCheck && specialCharCheck && caseCheck;
-  };
 
   return (
-    <div className='reg__sec'>
-      <h2>New account</h2>
+    <div className='reg__sec' >
+      <h2>REGISTER</h2>
         <form className='register'>
+        {showPopup && <span className='popup'><IoMdAlert style={{fontSize:"3ren"}} />Just click Submit ! <MdOutlineCancel onClick={ closePopup} /></span>}
+        <label>Full Name</label>
+        <input type='text' placeholder='Enter Full Name'
+    />
           
         <label>Email</label>
-        <input type='email' placeholder='Enter email'/>
+        <input type='email' placeholder='Enter email'
+        />
+
+        <label>Username</label>
+        <input type='text' placeholder='Create Username'
+     />
 
       <label>Password:</label>
-      <input
-        type="password"
-        value={password}
-        placeholder='Create password'
-        onChange={(e) => setPassword(e.target.value)}
+      <input type="password" placeholder='Create password'
       />
       
-      
-      {isPasswordValid(password) ? (
-        <p className="success">All required characters completed.)</p>
-      ) : (
-        <>
-        <p className="error">Must contain mix of letters and numbers</p>
-        <p className="error"> At least 1 special character</p>
-        <p className="error">At least 1 lowercase and 1 uppercase letter</p>
-        <p className="error">Must contain minimum length of 8 characters</p></>
-        
-        
-      )}
+
       
 
       <div className='agent__box'>
         
         <input type='checkbox'/>
-        <span>I am an agent that is interested in selling</span>   
+        <span>I am an agent who is interested in selling</span>   
       </div>
 
-      <Link to="/" className='btn'>Submit</Link>
+      <div className='btn' onClick={handleSubmit}>Submit</div>
       <span className='ahc'>Already have an account? <Link to='/login'>Sign in</Link> instead</span>
 
       <div className='other__connect'>
-        <Link to="/"><i class="fa-brands fa-apple"></i> Continue with Apple</Link>
-        <Link to="/"><i class="fa-brands fa-facebook"></i>Continue with Facebook</Link>
-        <Link to="/"><i class="fa-brands fa-google"></i> Continue with Google</Link>
+        <Link to="/"><i><BsApple/></i> Continue with Apple</Link>
+        <Link to="/"><i><SiFacebook/></i>Continue with Facebook</Link>
+        <Link to="/"><i ><FcGoogle/></i> Continue with Google</Link>
       </div>
 
      

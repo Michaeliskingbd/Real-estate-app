@@ -1,13 +1,23 @@
+.createpage {
+    background-image: url('../../assets/jacques-bopp-Hh18POSx5qk-unsplash.jpg');
+}
+
+.cp {
+   top: 30%;
+}
+
+
 .secondary__container {
-    background: #f3f5f6;
-    padding: 5rem 0;
+    background-color: #f3f5f6;
+    padding: 8rem 0;
     
    
 }
 
 .secondary__container h2 {
     color: rgb(0, 0, 0);
-    font-weight: 400;
+    font-weight: 500;
+    font-size: 1rem;
     
 }
 
@@ -17,7 +27,15 @@ label {
     font-weight: 300;
   
 }
+.create__title {
+    margin-left: 28%;
+    width: 30%;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
 
+  
+  
+}
 
 .details {
     display: flex;
@@ -28,6 +46,7 @@ label {
     border-radius: 1rem;
     background: #fff;
     gap: .4rem;
+ 
     
   
 }
@@ -80,7 +99,7 @@ label {
 select {
     padding: .8rem;
     text-indent: .8rem;
-    font-size: 1rem;
+    font-size: .8rem;
     font-family: poppins;
     background-color: #f3f5f6;;
     border: 1px solid #cecfd1;
@@ -89,7 +108,7 @@ select {
 }
 select option {
     font-family: poppins;
-    font-size: 1rem;
+ 
     background-color: #f3f5f6;;
   }
 
@@ -100,7 +119,7 @@ textarea {
     text-indent: 1rem;
     resize: none;
     padding: 10px 5px;
-    font-size: 1rem;
+    font-size: .8rem;
     background-color: #f3f5f6;
     border: 1px solid #cecfd1;
     border-radius: .7rem;
@@ -162,9 +181,23 @@ textarea {
         margin-top: 2rem;
         
     }
+    .cp {
+        top: 10%;
+       
+     }
+     .cp h1 {
+        font-size: 3em;
+     }
+     .cp h2 {
+        margin-bottom: 2rem;
+     }
+     .crr {
+        margin-top: 2em;
+     }
+     
     .details {
         width: 93%;
-        margin-top: 5rem;
+        margin-top: 2rem;
     }
    
   
@@ -177,7 +210,7 @@ textarea {
        
     }
     .secondary__container h2 {
-        font-size: 1rem;
+        font-size: .7rem;
     }
     .secondary__container label, p  {
         font-size: .6rem;
@@ -205,12 +238,7 @@ textarea {
         display: flex;
         flex-direction: column;
     }
-    .bnb label {
-        font-size: .8rem;
-        color: rgb(0, 0, 0);
-        margin-bottom: 1rem;
-        font-weight: 300;
-    }
+  
     
     .bnb div span {
         font-size: .7rem;
@@ -268,6 +296,13 @@ textarea {
     
   
       
+    }
+
+    .create__title {
+        margin-left: 8%;
+        width: 70%;
+        margin-bottom: 0;
+        font-size: 1em;
     }
 
     

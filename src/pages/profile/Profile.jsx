@@ -1,20 +1,40 @@
 import React from 'react'
-import image3 from "../../assets/007-chat.png"
+import image3 from "../../assets/PngItem_1503945.png"
 import "./profile.css"
-
+import {FcAddImage} from "react-icons/fc"
+import userprofilepic from "../../assets/kendall.jpg"
 
 const Profile = () => {
+
+ 
+  
+  const user = true
+
   return (
+  
     <div className='profile__universal'>
       <div className='profile__container'>
       <div className='profile'>
         <h2>Hello</h2>
-        <h3>Michael King</h3>
-        <span>@mking123</span>
+        <h3>Kendall Jenner</h3>
+        <span>@Kendoll</span>
+        
         <div className='main__profilepic'>
-          <img src={image3} alt='img'/>
+       
+        <img
+              src={user ?  userprofilepic : image3}
+              alt=""
+            />
+          
         </div>
-        <a href='/' className='btn'>Upload picture</a>
+            <label htmlFor='fileInput' style={{ fontSize: "2rem", margin: "0" }} ><i ><FcAddImage/></i></label>
+        <div  className='btn' >Upload picture  </div>
+        <input
+         type="file"
+         id="fileInput"
+         style={{ display: "none" }}
+        />
+       
         <div className='upload__details'>Make sure the file you are uoloading is not bigger than 5mb and size not over 1200px by 800px </div>
       </div>
 
@@ -26,22 +46,22 @@ const Profile = () => {
 
         <div>
           <label>Full name</label>
-          <input type='text' placeholder='Michael King'/>
+          <input type='text' placeholder="Kendal Jenner"/>
         </div>
 
         <div>
           <label>Username</label>
-          <input type='text' placeholder='@michaelking'/>
+          <input type='text' placeholder="Kendoll001"/>
         </div>
 
         <div>
           <label>Email</label>
-          <input type='email' placeholder='Email@gmail.com'/>
+          <input type='email' placeholder="kendalljenner@gmail.com"/>
         </div>
 
         <div>
           <label>Password:</label>
-          <input type='password'  placeholder='Password'/>
+          <input type='password'  placeholder='New password'/>
         </div>
 
         <div> 
@@ -52,11 +72,14 @@ const Profile = () => {
        
       
       </form>
-      <a href='#' className='btn'>Update info</a>
+      <div className='btn'>Update info</div>
       </div>
       </div>
      
     </div>
+
+   
+   
   )
 }
 
