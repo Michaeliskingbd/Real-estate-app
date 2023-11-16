@@ -135,52 +135,8 @@ label {
 
 }
 
+
 @media screen and (max-width:769px) {
-
-    .reg__sec {
-        width: 95%;
-    }
-    .register {
-        width: 90%;
-    }
-
-    .register input {
-        margin-bottom: .8rem;
-        height: 2.3rem;
-        font-size: .7rem;
-        color: gray;
-      
-    }
-    .register label {
-        font-size: .7rem;
-    }
-
-    .agent__box span {
-        font-size: .7rem;
-    }
-
-    .other__connect a {
-        padding: .8rem;
-        color: inherit;
-        text-align: center;
-        font-size: .7rem;
-    }
-
-    .eye {
-    
-        top: 9.6rem;
-        right: 2rem;
-
-    }
-
-    .reg__sec h2 {
-      font-size: 1rem;
-      margin-left: 1rem;
-    }
-       
-}
-
-@media screen and (max-width:480px) {
 
     .reg__sec {
         width: 95%;

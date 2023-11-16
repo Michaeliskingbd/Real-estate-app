@@ -126,7 +126,7 @@ font-weight: 300;
 
 /*RESPONSIVENESS*/
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:769px) {
     .option__section {
         padding: 3rem 2rem;
     }

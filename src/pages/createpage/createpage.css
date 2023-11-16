@@ -174,7 +174,7 @@ textarea {
     gap: 1rem;
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:769px) {
 
     .create__location, .create__pricing{
         width: 93%;

@@ -57,7 +57,7 @@ button.slick-arrow.slick-prev::before {
     }
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:769px) {
     .house__content {
         width: 160px;
         margin: auto;
