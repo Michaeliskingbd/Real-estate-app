@@ -60,9 +60,10 @@ padding-bottom: 4rem;
    
 .postpage {
     display: grid;
-    gap: .5rem;
+    row-gap: 2rem;
     grid-template-columns: 1fr 1fr;
-    width: 80%;
+    width: 100%;
+   
 
 } 
 .filter {

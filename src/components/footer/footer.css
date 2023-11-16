@@ -69,15 +69,15 @@ hr {
     .footer {
         display: flex;
         flex-direction: column;
-        gap: 2rem;
+        gap: 1.5rem;
     }
 
     .flinks {
         display: flex;
         flex-direction: column;
         flex: 2;
-        gap: 3rem;
-        font-size: .9rem;
+        gap: 2rem;
+        font-size: .8rem;
         font-weight: 500;
         margin-bottom: 2rem;
     
