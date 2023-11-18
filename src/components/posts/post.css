@@ -46,16 +46,6 @@ button.slick-arrow.slick-prev::before {
     color: var(--color-variant);
 }
 
-@media screen and (max-width:769px) {
-    .house__content {
-        width: 250px;
-    }
-   
-    section {
-        width: var(--conatainer-wdth-sm);
-       
-    }
-}
 
 @media screen and (max-width:769px) {
     .house__content {

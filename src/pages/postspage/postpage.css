@@ -10,13 +10,13 @@ padding-bottom: 4rem;
 
 
 .postpage {
-  
-    display: grid;
-    width: 90%;
-    margin: auto;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 1rem;
 
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 93%;
+    gap: 1rem;
+   
 }
 
 .filter {
@@ -62,7 +62,8 @@ padding-bottom: 4rem;
     display: grid;
     row-gap: 2rem;
     grid-template-columns: 1fr 1fr;
-    width: 100%;
+    width: 90%;
+    margin: auto;
    
 
 } 
@@ -79,4 +80,13 @@ padding-bottom: 4rem;
 
 
 
+}
+@media screen and (max-width:365px) {
+    .postpage {
+        display: grid;
+        row-gap: 2rem;
+        grid-template-columns: 1fr 1fr;
+        width: 95%;
+        margin: auto;
+    }
 }
