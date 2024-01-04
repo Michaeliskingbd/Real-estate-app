@@ -43,8 +43,8 @@ const Explore = ({posts}) => {
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToShow: 2.5,
+          slidesToScroll: 1,
           arrows: false,
         },
       },
@@ -52,7 +52,7 @@ const Explore = ({posts}) => {
       {
         breakpoint: 360,
         settings: {
-          slidesToShow: 1.8,
+          slidesToShow: 2,
           slidesToScroll: 1,
           arrows: false,
         },
@@ -63,12 +63,12 @@ const Explore = ({posts}) => {
   
 
   return (
-    <section  data-aos="fade-up"   data-aos-duration="1000" data-aos-once="false">
+    <section>
       
 
-      <div className='section__title'>
+      <div className='explore section__title'>
         <h1>Explore Houses on Citylights</h1>
-        <h3 className='subheading'>Take a deep dive and browse homes for sale
+        <h3 className=' explore subheading'>Take a deep dive and browse homes for sale
         </h3>
         </div>
         

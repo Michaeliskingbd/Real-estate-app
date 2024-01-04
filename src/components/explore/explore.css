@@ -1,10 +1,11 @@
 @media screen and (max-width:769px) {
     section {
         width: var( --container-width-sm);
-        padding: 1rem 2rem;
-       
-        
-       
+        padding: 1rem 0rem;     
+    }
+    .explore h1, .explore h3 {
+        margin-left: 2rem;
+        width: fit-content;
     }
 }
 

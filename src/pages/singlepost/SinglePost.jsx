@@ -101,15 +101,15 @@ const SinglePost = () => {
                 </div>
 
                 <div className='com create__location'>
-                    <h2>Add comment...</h2>
-                    <p>*Michael King</p>
+                    <h2>Add review...</h2>
+                   
                     <textarea className='comment__area' type='text' placeholder='What do you think?'/>
                     <div className='comm btn'>Post</div>
                 </div>
 
                 <div className='comment__box'>
 
-                <h1>Comments</h1>
+                <h1>Reviews</h1>
                 <div className='comments'>
                  
                 <article className='comment__content'>

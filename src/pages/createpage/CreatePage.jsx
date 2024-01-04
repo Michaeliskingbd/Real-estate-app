@@ -138,7 +138,7 @@ const CreatePage = () => {
                     
                 </div>
 
-                <div className='create__location' data-aos="fade-up"   data-aos-duration="2000"  data-aos-delay="500">
+                <div className='create__location'>
                     <h2>Add image <FcImageFile/></h2>
                     <input className='create__input' type='file'
                     id='fileInput'

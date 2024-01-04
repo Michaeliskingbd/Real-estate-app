@@ -225,7 +225,11 @@
     }
 
     .sp__desc {
-        text-align: justify;
+        font-size: 1rem;
+       
+    }
+    .sp__desc p {
+        text-align: left;
         font-size: .9rem;
        
     }
@@ -269,7 +273,8 @@
     }
 
     .comment__box h1 {
-        margin: 1.5rem;
+        margin: 1rem;
+        margin-left: 0;
         font-size: .9rem;
     }  
     

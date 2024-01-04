@@ -98,20 +98,25 @@ font-weight: 300;
     color: #fff;
     margin: 0;
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 1.3rem;
+    color: rgb(201, 201, 201);
 }
+
 .option2 h2 {
     width: 70%;
     color: rgb(255, 255, 255);
     opacity: .4;
     font-weight: 600;
     font-size: 2rem;
+
 }
 
 .option2 h3 {
     color: #fff;
     font-weight: 300;
-    line-height: 1.5rem;
+    line-height: 1.3rem;
+    color: rgb(201, 201, 201);
+   
  
 }
 .option2 div {
@@ -181,8 +186,14 @@ font-weight: 300;
     .option2 h1 , .option2 h2 {
         width: 90%;
     }
+    .option2 h1 {
+        font-size: 1rem;
+        color: rgb(201, 201, 201);
+    }
     .option2 h3 {
         width: 70%;
+        margin-top: .5rem;
+        color: rgb(201, 201, 201);
     }
 }
 

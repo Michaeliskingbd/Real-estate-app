@@ -78,7 +78,9 @@ padding-bottom: 4rem;
     position: sticky;
 }
 
-
+.cp {
+    margin: auto;
+}
 
 }
 @media screen and (max-width:365px) {
@@ -88,5 +90,6 @@ padding-bottom: 4rem;
         grid-template-columns: 1fr 1fr;
         width: 95%;
         margin: auto;
+        
     }
 }
